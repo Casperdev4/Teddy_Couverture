@@ -219,6 +219,11 @@
                 <img src="couvreur-77.png" alt="couvreur autour de moi">
             </div>
             <form action="https://formsubmit.co/webprime91@hotmail.com" method="POST" onsubmit="return validateForm()">
+                <!-- Honeypot anti-spam -->
+                <div class="hp-wrap">
+                    <label for="website">Votre site web :</label>
+                    <input type="text" id="website" name="website" autocomplete="off">
+                </div>
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_next" value="https://td-couvreur-77.fr/">
                 <input type="hidden" name="_cc" value="teddycouverture77@gmail.com">
@@ -239,10 +244,8 @@
                     <option value="URGENCE FUITE">URGENCE FUITE</option>
                     <option value="AUTRE">AUTRE</option>
                 </select>
-
                 <label for="comments">Commentaires :</label>
                 <textarea id="comments" name="commentaires" rows="4" required></textarea>
-
                 <button type="submit">ENVOYER</button>
             </form>
         </div>
